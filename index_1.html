@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css block level</title>
+    <style>
+        .Details {
+            /* width:300px; */
+            /* height:300px; */
+            /* border:2px solid; */
+            /* border-color:white; */
+            padding-left: 20;
+            padding-right: 20;
+            text-align: center;
+
+
+
+        }
+
+        img {
+            width: 120px;
+            border-radius: 50%;
+
+        }
+        .d{
+            border-radius: 20px ;
+        }
+
+        fieldset {
+            border: none;
+            background-color:whitesmoke;
+            width:80%;
+            margin:20px;
+        
+        }
+
+        legend {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .a,
+        .b,
+        .c {
+            padding: 10px;
+        
+
+        }
+
+        #id-card {
+            background-color: blueviolet;
+            width: 300px;
+            padding-bottom: 30px;
+            border-radius: 20px;
+            border-top-color:aqua ;
+            border-top-width: 10px;
+
+        }
+        .element{
+            text-align:center;
+            font-size: 30px;
+            text-shadow: 2px 1px 2px purple;
+            color: aqua;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id-card">
+        <div class="element">Green Planet</div>
+        <fieldset>
+            <legend>
+                <img src="./manoj pic.jpg" alt="">
+            </legend>
+            <div class="Details">
+                <h1>MANOJ YADAV</h1>
+                <div class="a">ID:207Y1A1222</div>
+                <div class="b">PHNO:6302406026</div>
+                <div class="c">Email:my0828767@gmail.com</div>
+                <div>
+                    <img src="https://miro.medium.com/v2/resize:fit:789/1*A9YcoX1YxBUsTg7p-P6GBQ.png" alt="" class="d">
+                </div>
+
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
